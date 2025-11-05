@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class atv10 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite um número para ver a tabuada: ");
+        int numero = scanner.nextInt();
+
+        System.out.print("Tabuada de " + numero + ":");
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(numero + " x " + i + " = " + (numero * i));
+        }
+    }
+}
